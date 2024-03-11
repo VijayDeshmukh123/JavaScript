@@ -1,0 +1,26 @@
+
+// class LoginPage{
+
+
+//     user=loginId;
+
+// setUserNAme(user){
+//     cy.xpath("//input[@id='"+user+"']").type("in076761");
+// }
+// }
+
+//export default LoginPage;
+
+export default class Login {
+
+   
+
+    setUserNAme(user){
+        cy.xpath("//input[@id='"+user+"']").type("in076761");
+    }
+
+
+  }
+  
+ 
+  
